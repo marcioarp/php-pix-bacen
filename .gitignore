@@ -1,3 +1,5 @@
 
 *.zip
 
+/nbproject/private/
+/nbproject/*
