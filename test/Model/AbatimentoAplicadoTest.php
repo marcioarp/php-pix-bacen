@@ -28,6 +28,8 @@
 
 namespace Swagger\Client;
 
+require_once('../../vendor/autoload.php');
+
 /**
  * AbatimentoAplicadoTest Class Doc Comment
  *
@@ -37,7 +39,7 @@ namespace Swagger\Client;
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
-class AbatimentoAplicadoTest extends \PHPUnit_Framework_TestCase
+class AbatimentoAplicadoTest extends \PHPUnit\Framework\TestCase
 {
 
     /**

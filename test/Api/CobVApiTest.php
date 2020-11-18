@@ -31,6 +31,8 @@ use Swagger\Client\Configuration;
 use Swagger\Client\ApiException;
 use Swagger\Client\ObjectSerializer;
 
+require_once '../../vendor/autoload.php';
+
 /**
  * CobVApiTest Class Doc Comment
  *
@@ -39,7 +41,7 @@ use Swagger\Client\ObjectSerializer;
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
-class CobVApiTest extends \PHPUnit_Framework_TestCase
+class CobVApiTest extends \PHPUnit\Framework\TestCase
 {
 
     /**

@@ -31,6 +31,8 @@ use Swagger\Client\Configuration;
 use Swagger\Client\ApiException;
 use Swagger\Client\ObjectSerializer;
 
+require_once '../../vendor/autoload.php';
+
 /**
  * LoteCobVApiTest Class Doc Comment
  *
@@ -39,7 +41,7 @@ use Swagger\Client\ObjectSerializer;
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
-class LoteCobVApiTest extends \PHPUnit_Framework_TestCase
+class LoteCobVApiTest extends \PHPUnit\Framework\TestCase
 {
 
     /**
